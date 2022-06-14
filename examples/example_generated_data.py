@@ -5,11 +5,11 @@ Example using generated data and plotting numpy and pandas data.
 import string
 import numpy as np
 import pandas as pd
+from matplotlib import pyplot as plt
+
 from eplines import ECDFLines
 
 # generate test data, 1000 series each of length 100
-from matplotlib import pyplot as plt
-
 x_n = 100
 y_n = 1000
 
