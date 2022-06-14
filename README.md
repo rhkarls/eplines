@@ -5,8 +5,15 @@
 
 Heatmaps of empirical and exceedance probability of many (time-)series.
 
-This package is at alpha stage and experimental.
+Aggregate empirical and exceedance frequency/probability of many and long time-series, for example
+summarizing meteorological and hydrological time-series. Please see some example usages below.
 
+Also see the [`kdlines`](https://github.com/rhkarls/kdlines) package for similar functionality using kernel density estimation. 
+
+This package was inspired by [DenseLines](https://dig.cmu.edu/publications/2018-million-time-series.html) 
+by Moritz & Fisher.
+
+Please note that this package is at alpha stage and experimental.
 ## Requirements
 
     numpy
@@ -20,11 +27,11 @@ This package is at alpha stage and experimental.
 
 See \examples folder for example applications of `eplines`
 
-Temperature time series ECDF `\examples\example_temperature_timeseries.py`
+Temperature time-series ECDF `\examples\example_temperature_timeseries.py`
 
 ![example_ecdf_airtemp](https://github.com/rhkarls/eplines/blob/main/examples/temperature_ecdf_example.png)
 
-Discharge time series exceedance probability (aka flow-duration curve) `\examples\example_usgs_discharge.py`
+Discharge time-series exceedance probability (aka flow-duration curve for each individual day) `\examples\example_usgs_discharge.py`
 
 ![example_exceedance_df](https://github.com/rhkarls/eplines/blob/main/examples/discharge_exceedance_example.png)
 
