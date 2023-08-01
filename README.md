@@ -6,7 +6,7 @@
 Heatmaps of empirical and exceedance probability of many (time-)series.
 
 Aggregate empirical and exceedance frequency/probability of many and long time-series, for example
-summarizing meteorological and hydrological time-series. Please see some example usages below.
+summarizing meteorological and hydrological time-series. Create cycle plots to illustrate for example annual cycles for longer time-series, see some examples of this usage below.
 
 Also see the [`kdlines`](https://github.com/rhkarls/kdlines) package for similar functionality using kernel density estimation. 
 
